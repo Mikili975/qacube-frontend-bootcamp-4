@@ -1,0 +1,188 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #004baf;
+}
+
+.active {
+    background-color: #001daf;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+#twitter-icon {
+    float: right;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1dcaff;
+    /* twitter verified blue */
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: #92ceff;
+    /* twitter verified blue */
+}
+
+.container {
+    width: 80%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.main-content {
+    width: 50%;
+    float: left;
+    min-height: 100px;
+    /* background-color: #6f91eeb9; */
+}
+
+#chart-area {
+    width: 50%;
+    float: right;
+    min-height: 100px;
+    /* background-color: #92ceff; */
+}
+
+.input {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.created-at {
+    display: block;
+    border: 2px solid #008ae9;
+    border-radius: 12px;
+    font-size: x-small;
+    width: 60%;
+    margin: 10px;
+    padding: 8px;
+}
+
+.t-text {
+    display: block;
+    border: 2px solid #008ae9;
+    border-radius: 12px;
+    font-size: medium;
+    width: 80%;
+    margin: 10px;
+    padding: 8px;
+}
+
+.twitter-timeline {
+    background: #92ceff;
+}
+
+.error-message {
+    font-style: italic;
+    font-weight: bolder;
+    color: crimson;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(255, 20, 20, 0.904);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.par {
+    margin: 10px;
+    padding: 10px;
+}
+
+div.tooltip {	
+    display: none;
+    position: absolute;			
+    text-align: center;			
+    width: 60px;					
+    height: 70px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

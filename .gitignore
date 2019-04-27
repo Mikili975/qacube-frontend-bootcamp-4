@@ -1,0 +1,9 @@
+node_modules
+*.vscode
+*.idea
+dist
+.env
+package-lock.json
+temp/d3datavisualisation.js
+temp/jao.js
+temp/magnifying.js

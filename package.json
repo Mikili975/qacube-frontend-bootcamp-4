@@ -1,0 +1,35 @@
+{
+  "name": "qacube-frontend-bootcamp-4-mvlajnic",
+  "version": "1.0.0",
+  "description": "Exercise 8",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.qacube.com/mvlajnic/qacube-frontend-bootcamp-4-mvlajnic.git"
+  },
+  "keywords": [
+    "Twitter",
+    "API"
+  ],
+  "author": "Miroslav Vlajnic",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "d3": "^5.9.2",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@types/twitter": "^1.7.0",
+    "nodemon": "^1.18.10"
+  }
+}
